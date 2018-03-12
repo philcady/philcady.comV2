@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+	<head>
+	<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="An online portfolio of my past and present work." />
+		<meta name="keywords" content="web development, html5, javascript, css3 vars, animation, layout" />
+		<meta name="author" content="Phil Cady" />
+
+		<title>Welcome to the online portfolio of Phil Cady</title>
+
+	<!-- CSS & FONTs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this site in a modern browser that supports CSS Variables.");</script>
+
+	<!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+   <!--                       
+                 ./       |      |        \.
+               .:(        |i __ j|        ):`.
+             .'   `._     |`::::'|     _.'    `.
+           .'        "---.j `::' f.---"         `.
+     _____/     ___  ______      __    __   ___   \_   __
+    |      \   |   ||      |`__'|  \  /  | |   | |" \ |  |
+    |  .-.  | .'   `|_    _|\--/|   \/   |.'   `.|   \|  |
+    |  |_|  | |  i  | |  |  :"":|        ||  i  ||    |  |
+    |       / | .^. | |  |  ::::|        || .^. ||       |
+    |  .-.  \ | | | | |  |   :: |        || | | ||  |\   |
+    |  | |  |.' """ `.|  |      |  i  i  j' """ `.  | \  | 
+    |  `-'  ||   _   ||  |      |  |\/|  |   _   |  | [  |
+   [|      / |  | |  ||  |      |  |  |  |  | |  |  | |  |].
+  ] `-----'  :--' `--::--'      `--' ::--"--::`--"--' `--':[
+  |      __  ::-"""`.:' "--.    .----::.----:: ,.---._    :|
+  [  .-""  "`'              \  /      "      `'       `-. :].
+ ]:.'                        \/                          `.:[
+ |/                                                        \|
+
+/-->
+		
+	</head>
+
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-menu" viewBox="0 0 24 13">
+				<title>menu</title>
+				<path d="M.75 1.515h22.498a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zM23.248 5.265H8.168a.75.75 0 0 0 0 1.5h15.08a.75.75 0 0 0 0-1.5zM23.248 10.514H4.322a.75.75 0 0 0 0 1.5h18.926a.75.75 0 0 0 0-1.5z"/>
+			</symbol>
+			<symbol id="icon-dot" viewBox="0 0 24 24">
+				<title>dot</title>
+				<path d="M11.5 9c-.69 0-1.28.244-1.768.732A2.41 2.41 0 0 0 9 11.5c0 .69.244 1.28.732 1.767A2.409 2.409 0 0 0 11.5 14c.69 0 1.28-.244 1.768-.733A2.408 2.408 0 0 0 14 11.5c0-.69-.244-1.28-.732-1.768A2.408 2.408 0 0 0 11.5 9z"/>
+			</symbol>
+			<symbol id="icon-cross" viewBox="0 0 24 24">
+				<title>cross</title>
+				<path d="M11.449 11.962l-5.1 5.099a.363.363 0 1 0 .513.512L12 12.436l5.137 5.137a.361.361 0 0 0 .513 0 .363.363 0 0 0 0-.512l-5.099-5.1 5.102-5.102a.363.363 0 1 0-.512-.513L12 11.487l-5.141-5.14a.363.363 0 0 0-.513.512l5.103 5.103z"/>
+			</symbol>
+			<symbol id="icon-arrowlong" viewBox="0 0 32 11">
+				<title>arrow-long</title>
+				<path d="M27.166.183a.619.619 0 0 0-.878 0 .619.619 0 0 0 0 .878l2.735 2.735H.768a.624.624 0 0 0 0 1.248h28.254L26.287 7.77a.619.619 0 0 0 0 .878.617.617 0 0 0 .441.183c.163 0 .32-.061.442-.183l3.796-3.796a.623.623 0 0 0-.005-.878L27.166.183z"/>
+			</symbol>
+			<symbol id="icon-close" viewBox="0 0 24 24">
+				<title>close</title>
+				<path d="M21 4.565L19.435 3 12 10.435 4.565 3 3 4.565 10.435 12 3 19.435 4.565 21 12 13.565 19.435 21 21 19.435 13.565 12z"/>
+			</symbol>
+			<symbol id="icon-navup" viewBox="0 0 50 50">
+				<title>navup</title>
+				<path d="M20.259 28.211l5.07-5.03 5.075 5.034a.36.36 0 0 0 .51 0 .356.356 0 0 0 0-.506l-5.323-5.28a.404.404 0 0 0-.135-.084.364.364 0 0 0-.384.08l-5.324 5.28a.356.356 0 0 0 0 .506c.141.14.37.14.51 0z" />
+			</symbol>
+			<symbol id="icon-navdown" viewBox="0 0 50 50">
+				<title>navdown</title>
+				<path d="M20.259 22.43l5.07 5.03 5.075-5.034a.36.36 0 0 1 .51 0c.14.14.14.366 0 .506l-5.323 5.28a.404.404 0 0 1-.135.084.364.364 0 0 1-.384-.081l-5.324-5.28a.356.356 0 0 1 0-.505c.141-.14.37-.14.51 0z" />
+			</symbol>
+			<symbol id="icon-grid" viewBox="0 0 24 24">
+				<title>grid</title>
+				<path d="M8.982 8.982h5.988v5.988H8.982zM0 0h5.988v5.988H0zM8.982 17.965h5.988v5.988H8.982zM0 8.982h5.988v5.988H0zM0 17.965h5.988v5.988H0zM17.965 0h5.988v5.988h-5.988zM8.982 0h5.988v5.988H8.982zM17.965 8.982h5.988v5.988h-5.988zM17.965 17.965h5.988v5.988h-5.988z"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="sections">
+				<header class="sections__header">
+					<h1 class="title">philcady.com</h1>
+				</header>
+
+				<!-- menu -->
+				<nav class="menu">
+					<ul class="menu__inner">
+						<li class="menu__item"><a class="menu__item-link" href="#me">My Story</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#adv">Adventures</a></li>
+						<li class="menu__item"><a class="menu__item-link" href="#contact">Contact Me</a></li>
+					</ul>
+					<div class="menu__toggle">
+						<span class="menu__toggle-inner menu__toggle-inner--open">
+							<svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg>
+						</span>
+						<span class="menu__toggle-inner menu__toggle-inner--close">
+							<svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+						</span>
+					</div>
+				</nav>
+
+				<div class="hidden my_story" id="me">
+					<h1 class="title">This is the story, of man named Cady...</h1>
+					<p class="description">lorem ipsum dolor set ament...</p>
+					<p class="description">lorem ipsum dolor set ament...</p>
+				</div>
+
+				<!-- skills expander with toggles; content for each is in its section -->
+				<div class="facts">
+					<div class="facts__toggle">
+						<span class="facts__toggle-inner facts__toggle-inner--more">
+							<svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
+							<span class="facts__toggle-text">See more skills</span>
+						</span>
+						<span class="facts__toggle-inner facts__toggle-inner--less">
+							<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
+							<span class="facts__toggle-text">See less skills</span>
+						</span>
+					</div>
+					<button class="button-contentclose">
+						<svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+					</button>
+				</div>
+
+				<!-- index -->
+				<div class="sections__index">
+					<span class="sections__index-current">
+						<span class="sections__index-inner">01</span>
+					</span>
+					<span class="sections__index-total">05</span>
+				</div>
+
+				<!-- navigation down -->
+				<nav class="sections__nav">
+					<button class="sections__nav-item sections__nav-item--prev">
+						<svg class="icon icon--navup"><use xlink:href="#icon-navup"></use></svg>
+					</button>
+					<button class="sections__nav-item sections__nav-item--next">
+						<svg class="icon icon--navdown"><use xlink:href="#icon-navdown"></use></svg>
+					</button>
+				</nav>
+
+				<!-- sections -->
+				<section class="section section--current">
+					<div class="section__content">
+						<h2 class="section__title">Hello</h2>
+						<p class="section__description"><span class="section__description-inner">Welcome to my little slice of the web. Here you can find my online portfolio and samples that showcase my work.</span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/desktop_bkg.jpg)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to see more?</span>
+							<a href="https://codepen.io/slimcady/pens/public/" class="section__more-link">
+								<span class="section__more-linktext">Social media</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Web Dev</h3>
+							<span class="section__facts-detail">html5 css3 es6 React</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">UI Dev</h3>
+							<span class="section__facts-detail">jQuery GSAP Sketch</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Enterprise Dev</h3>
+							<span class="section__facts-detail">AEM CQ5</span>
+						</li>
+						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/projects_thumb.png" alt="More projects"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">Snapshot portfolio</h3>
+							<span class="section__facts-detail">A quickview of my web projects over the years</span>
+						</li>
+					</ul>
+					<div class="section__gallery" id="gallery1">
+						<h3 class="section__gallery-item section__gallery-item--title">More projects</h3>
+						<a class="section__gallery-item" href="#"><img src="img/vw_hybrid_diesel.jpg" alt="VW Hybrid Diesel page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_models-dasauto.jpg" alt="VW Models selector menu dropdown"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_stories.jpg" alt="VW Stories page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_beetle.png" alt="VW Beetle model page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_mobile.jpg" alt="VW mobile build out"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/lexus_mobile.jpg" alt="Lexus mobile styling"/></a>
+						
+					</div>
+				</section><!--/ section -->
+
+				<section class="section">
+					<div class="section__content">
+						<h2 class="section__title">VW</h2>
+						<p class="section__description"><span class="section__description-inner">As a member of the platform maintenance team, I was responsible for creating and maintaining sales campaign modules on their N. American enterprise website.</span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/vw_beetle.png)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg1">
+							<span class="section__more-text">Want to see more?</span>
+							<a href="https://www.vw.com" class="section__more-link">
+								<span class="section__more-linktext">Visit vw.com</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Technology used:</h3>
+							<span class="section__facts-detail">HTML5, CSS3, jQuery, svn</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Enterprise CRM:</h3>
+							<span class="section__facts-detail">Adobe Experience Manager 5.2</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Highlights:</h3>
+							<span class="section__facts-detail">Beetle Model page build-out</span>
+						</li>
+						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery1">
+							<div class="section__facts-img">
+								<img src="img/vw_mobile_thmb.png" alt="VW projects thumbnail"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More projects</h3>
+							<span class="section__facts-detail">A collection of snapshots</span>
+						</li>
+					</ul>
+					<div class="section__gallery" id="gallery2">
+						<h3 class="section__gallery-item section__gallery-item--title">More projects</h3>
+						<a class="section__gallery-item" href="#"><img src="img/vw_hybrid_diesel.jpg" alt="VW Hybrid Diesel page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_models-dasauto.jpg" alt="VW Models selector menu dropdown"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_stories.jpg" alt="VW Stories page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_beetle.png" alt="VW Beetle model page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_mobile.jpg" alt="VW mobile build out"/></a>
+					</div>
+				</section><!--/ section -->
+
+				<section class="section">
+					<div class="section__content">
+						<h2 class="section__title">Lexus</h2>
+						<p class="section__description"><span class="section__description-inner">I worked on the enterprise website for Lexus in a maintenance capacity and implemented several different </span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/lexus_com.png)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg2">
+							<span class="section__more-text">Want to see more?</span>
+							<a href="https://www.lexus.com" class="section__more-link">
+								<span class="section__more-linktext">Explore lexus.com</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Technology used:</h3>
+							<span class="section__facts-detail">XHTML, CSS, jQuery, svn</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Additional tasks:</h3>
+							<span class="section__facts-detail">Debugging legacy codebase</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Highlights:</h3>
+							<span class="section__facts-detail">Building an internal tracking id app using es6</span>
+						</li>
+						<li class="section__facts-item section__facts-item--clickable" data-gallery="gallery2">
+							<div class="section__facts-img">
+								<img src="img/lexus_com_thumb.jpg" alt="Lexus.com projects"/>
+								<svg class="icon icon--grid"><use xlink:href="#icon-grid"></use></svg>
+							</div>
+							<h3 class="section__facts-title">More projects</h3>
+							<span class="section__facts-detail">A collection of lexus work</span>
+						</li>
+					</ul>
+					<div class="section__gallery" id="gallery3">
+						<h3 class="section__gallery-item section__gallery-item--title">More projects</h3>
+						<a class="section__gallery-item" href="#"><img src="img/vw_hybrid_diesel.jpg" alt="VW Hybrid Diesel page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_models-dasauto.jpg" alt="VW Models selector menu dropdown"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_stories.jpg" alt="VW Stories page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_beetle.png" alt="VW Beetle model page"/></a>
+						<a class="section__gallery-item" href="#"><img src="img/vw_mobile.jpg" alt="VW mobile build out"/></a>
+					</div>
+				</section><!--/ section -->
+
+				<section class="section">
+					<div class="section__content">
+						<h2 class="section__title">cmab</h2>
+						<p class="section__description"><span class="section__description-inner">The California Milk Advisory Board was a project that </span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/cmab.png)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg3">
+							<span class="section__more-text">Want to see more?</span>
+							<a href="http://www.realcaliforniamilk.com/" class="section__more-link">
+								<span class="section__more-linktext">Explore Real CA Milk</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Technology used:</h3>
+							<span class="section__facts-detail">HTML5, CSS3, jQuery, GSAP</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Enterprise CRM:</h3>
+							<span class="section__facts-detail">WordPress </span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Highlights:</h3>
+							<span class="section__facts-detail">Working with video.js</span>
+						</li>
+					</ul>
+				</section><!--/ section -->
+
+				<section class="section">
+					<div class="section__content">
+						<h2 class="section__title">CNB</h2>
+						<p class="section__description"><span class="section__description-inner">A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. In some cases a river flows into the ground and becomes dry at the end of its course without reaching another body of water.</span></p>
+					</div>
+					<div class="section__img">
+						<div class="section__img-inner" style="background-image: url(img/cnb.png)"></div>
+					</div>
+					<div class="section__more">
+						<div class="section__more-inner section__more-inner--bg4">
+							<span class="section__more-text">Want to know more?</span>
+							<a href="https://www.cnb.com" class="section__more-link">
+								<span class="section__more-linktext">Explore CNB</span>
+								<svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+							</a>
+						</div>
+					</div>
+					<div class="section__expander"></div>
+					<ul class="section__facts">
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Technology used:</h3>
+							<span class="section__facts-detail"></span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">History call</h3>
+							<span class="section__facts-detail">Kayaking the whole lake</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">Walking around</h3>
+							<span class="section__facts-detail">With 55m it's the deepest</span>
+						</li>
+						<li class="section__facts-item">
+							<h3 class="section__facts-title">How many miles?</h3>
+							<span class="section__facts-detail">An aerial view of the lake</span>
+						</li>
+					</ul>
+				</section><!--/ section -->
+			</div><!--/ sections -->
+			
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
