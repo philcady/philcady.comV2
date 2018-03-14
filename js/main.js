@@ -251,10 +251,10 @@
 			this.DOM.menu.menuCtrls.toggle.addEventListener('click', () => this.toggleMenu());
 
 			// Menu items
-			for ( let i = 0; i <= this.linksTotal - 1; ++i ) {
-				let link = Array(3).fill(this.DOM.menu.links[i]);
-				console.log(link);
-			}
+			// for ( let i = 0; i <= this.linksTotal - 1; ++i ) {
+			// 	let link = Array(3).fill(this.DOM.menu.links[i]);
+			// 	console.log(link);
+			// }
 			
 			// Facts Container
 			this.DOM.factsCtrls.toggle.addEventListener('click', () => this.toggleFactsContainer());
